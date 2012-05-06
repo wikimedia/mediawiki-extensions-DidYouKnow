@@ -42,13 +42,14 @@ $wgExtensionCredits['other'][] = array(
 );
 
 // i18n
-$wgExtensionMessagesFiles['DidYouKnow'] 			= dirname( __FILE__ ) . '/DidYouKnow.i18n.php';
+$wgExtensionMessagesFiles['DidYouKnow'] 	= dirname( __FILE__ ) . '/DidYouKnow.i18n.php';
 
 // Autoloading
-$wgAutoloadClasses['DYKSettings'] 					= dirname( __FILE__ ) . '/DidYouKnow.settings.php';
+$wgAutoloadClasses['DYKSettings'] 			= dirname( __FILE__ ) . '/DidYouKnow.settings.php';
+$wgAutoloadClasses['DYKHooks'] 				= dirname( __FILE__ ) . '/DidYouKnow.hooks.php';
 
 // Hooks
-$wgHooks['LoadExtensionSchemaUpdates'][] 			= 'EPHooks::onSchemaUpdate';
+$wgHooks['LoadExtensionSchemaUpdates'][] 	= 'EPHooks::onSchemaUpdate';
 
 // Resource loader modules
 $moduleTemplate = array(

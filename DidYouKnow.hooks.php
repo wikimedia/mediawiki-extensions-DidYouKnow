@@ -1,8 +1,18 @@
 <?php
+
 /**
- * Created by JetBrains PhpStorm.
- * User: jeroen
- * Date: 5/6/12
- * Time: 6:34 PM
- * To change this template use File | Settings | File Templates.
+ * Static class for hooks handled by the Did You Know extension.
+ *
+ * @since 0.1
+ *
+ * @file
+ * @ingroup DYK
+ *
+ * @licence GNU GPL v2+
+ * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
+final class DYKHooks {
+
+
+
+}
