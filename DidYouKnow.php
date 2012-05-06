@@ -47,6 +47,7 @@ $wgExtensionMessagesFiles['DidYouKnow'] 	= dirname( __FILE__ ) . '/DidYouKnow.i1
 // Autoloading
 $wgAutoloadClasses['DYKSettings'] 			= dirname( __FILE__ ) . '/DidYouKnow.settings.php';
 $wgAutoloadClasses['DYKHooks'] 				= dirname( __FILE__ ) . '/DidYouKnow.hooks.php';
+$wgAutoloadClasses['DYKBox'] 				= dirname( __FILE__ ) . '/includes/DYKBox.php';
 
 // Hooks
 $wgHooks['LoadExtensionSchemaUpdates'][] 	= 'EPHooks::onSchemaUpdate';

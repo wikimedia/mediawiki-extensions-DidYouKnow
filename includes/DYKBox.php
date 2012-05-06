@@ -9,10 +9,21 @@
 
 class DYKBox extends ContextSource {
 
-	public function __construct( IContextSource $context = null ) {
+	protected $mainCategory;
+	protected $specificCategory;
+
+	/**
+	 * @param string $mainCategory
+	 * @param string|false $specificCategory
+	 * @param IContextSource|null $context
+	 */
+	public function __construct( $mainCategory, $specificCategory = false, IContextSource $context = null ) {
 		if ( !is_null( $context ) ) {
 			$this->setContext( $context );
 		}
+
+		$this->mainCategory = $mainCategory;
+		$this->specificCategory = $specificCategory;
 	}
 
 	public function getHTML() {
