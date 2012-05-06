@@ -7,7 +7,7 @@
  * Support					https://www.mediawiki.org/wiki/Extension_talk:Did_You_Know
  * Source code:				https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/DidYouKnow.git
  *
- * @file DidYouKnow.php
+ * @file
  * @ingroup DYK
  *
  * @licence GNU GPL v2+
@@ -15,7 +15,7 @@
  */
 
 /**
- * This documentation group collects source code files belonging to Education Program.
+ * This documentation group collects source code files belonging to Did You Know.
  *
  * @defgroup DYK Did You Know
  */
