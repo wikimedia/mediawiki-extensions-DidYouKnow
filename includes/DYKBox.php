@@ -31,6 +31,15 @@ class DYKBox extends ContextSource {
 
 		$html .= $this->msg( 'didyouknow-header' )->escaped();
 
+		$title = $this->getArticleTitle();
+
+		if ( $title === false ) {
+			return 'TODO'; // TODO
+		}
+		else {
+			$html .= $this->getArticleContent( $title );
+		}
+
 		$html = Html::rawElement(
 			'div',
 			array( 'class' => 'didyouknow' ),
@@ -49,6 +58,38 @@ class DYKBox extends ContextSource {
 	public function display() {
 		$this->getOutput()->addHTML( $this->getHTML() );
 		$this->getOutput()->addModules( $this->getModules() );
+	}
+
+	/**
+	 * @param Title $title
+	 *
+	 * @return string
+	 */
+	protected function getArticleContent( Title $title ) {
+		$article = new Article( $title, 0 );
+		$content = $article->fetchContent();
+		return is_string( $content ) ? $content : '';
+	}
+
+	/**
+	 * @return Title|false
+	 */
+	protected function getArticleTitle() {
+		$titles = array();
+
+		if ( $this->specificCategory !== false ) {
+			$titles = $this->getArticlesInCategory( $this->specificCategory );
+		}
+
+		if ( empty( $titles ) ) {
+			$titles = $this->getArticlesInCategory( $this->mainCategory );
+		}
+
+		return empty( $titles ) ? false : $titles[array_rand( $titles )];
+	}
+
+	protected function getArticlesInCategory( $categoryName ) {
+
 	}
 
 }
