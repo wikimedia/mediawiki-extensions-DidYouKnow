@@ -18,5 +18,14 @@ $messages = array();
  * @author Jeroen De Dauw
 	 */
 $messages['en'] = array(
-	'didyouknow-desc' => '',
+	'didyouknow-desc' => 'Allows displaying a "Did you know ... ?" box filled with content from a wiki page.',
+	'didyouknow-header' => 'Did you know ... ?',
+);
+
+	/** Message documentation (Message documentation)
+	 * @author Jeroen De Dauw
+	 */
+$messages['qqq'] = array(
+	'didyouknow-desc' => 'Extension description for on Special:Version',
+	'didyouknow-header' => 'Message displayed as a header in the did you know box',
 );

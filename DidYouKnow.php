@@ -35,7 +35,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Did You Know',
 	'version' => DYK_VERSION,
 	'author' => array(
-		'[http://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
+		'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Did_You_Know',
 	'descriptionmsg' => 'didyouknow-desc'
@@ -58,8 +58,9 @@ $moduleTemplate = array(
 );
 
 
-$wgResourceModules['didyouknow'] = $moduleTemplate + array(
-	'scripts' => array(
+$wgResourceModules['ext.dyk'] = $moduleTemplate + array(
+	'styles' => array(
+		'ext.dyk.css',
 	),
 );
 
