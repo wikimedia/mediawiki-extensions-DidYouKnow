@@ -13,6 +13,10 @@ class DYKBox extends ContextSource {
 	protected $specificCategory;
 
 	/**
+	 * Constructor.
+	 *
+	 * @since 0.1
+	 *
 	 * @param string $mainCategory
 	 * @param string|false $specificCategory
 	 * @param IContextSource|null $context
@@ -26,10 +30,19 @@ class DYKBox extends ContextSource {
 		$this->specificCategory = $specificCategory;
 	}
 
+	/**
+	 * Returns the HTML for the did you know box.
+	 *
+	 * @since 0.1
+	 *
+	 * @return string
+	 */
 	public function getHTML() {
 		$html = '';
 
-		$html .= $this->msg( 'didyouknow-header' )->escaped();
+		$html .= '<span class="didyouknow-header">';
+		$html .= $this->msg( 'didyouknow-header' )->escaped() . '<hr />';
+		$html .= '</span>';
 
 		$title = $this->getArticleTitle();
 
@@ -37,7 +50,7 @@ class DYKBox extends ContextSource {
 			return 'TODO'; // TODO
 		}
 		else {
-			$html .= $this->getArticleContent( $title );
+			$html .= $this->getOutput()->parseInline( $this->getArticleContent( $title ) );
 		}
 
 		$html = Html::rawElement(
@@ -49,18 +62,32 @@ class DYKBox extends ContextSource {
 		return $html;
 	}
 
+	/**
+	 * Returns the resource modules needed by the did you know box.
+	 *
+	 * @since 0.1
+	 *
+	 * @return array
+	 */
 	public function getModules() {
 		return array(
 			'ext.dyk'
 		);
 	}
 
+	/**
+	 * Displays the did you know box.
+	 *
+	 * @since 0.1
+	 */
 	public function display() {
 		$this->getOutput()->addHTML( $this->getHTML() );
 		$this->getOutput()->addModules( $this->getModules() );
 	}
 
 	/**
+	 * Returns the content for the article with provided title.
+	 *
 	 * @param Title $title
 	 *
 	 * @return string
@@ -72,24 +99,53 @@ class DYKBox extends ContextSource {
 	}
 
 	/**
+	 * Returns the title for the article to get content from or false if there is none.
+	 *
 	 * @return Title|false
 	 */
 	protected function getArticleTitle() {
-		$titles = array();
+		$pageName = false;
 
 		if ( $this->specificCategory !== false ) {
-			$titles = $this->getArticlesInCategory( $this->specificCategory );
+			$pageName = $this->getPageFromCategory( $this->specificCategory );
 		}
 
-		if ( empty( $titles ) ) {
-			$titles = $this->getArticlesInCategory( $this->mainCategory );
+		if ( $pageName === false ) {
+			$pageName = $this->getPageFromCategory( $this->mainCategory );
 		}
 
-		return empty( $titles ) ? false : $titles[array_rand( $titles )];
+		return $pageName === false ? false : Title::newFromText( $pageName );
 	}
 
-	protected function getArticlesInCategory( $categoryName ) {
+	/**
+	 * Gets a random page from a category.
+	 * Note that the random function becomes inefficient for large result sets,
+	 * so this should only be used for small categories.
+	 *
+	 * @param string$categoryName
+	 *
+	 * @return string|false
+	 */
+	protected function getPageFromCategory( $categoryName ) {
+		global $wgContLang;
 
+		$dbr = wfGetDB( DB_SLAVE );
+		$res = $dbr->selectRow(
+			array( 'page', 'categorylinks' ),
+			array( 'page_namespace', 'page_title' ),
+			array(
+				'cl_from=page_id',
+				'cl_to' => Title::newFromText( $categoryName, NS_CATEGORY )->getDBkey()
+			),
+			__METHOD__,
+			array( 'ORDER BY' => 'RAND()' )
+		);
+
+		if ( $res !== false ) {
+			$res = $wgContLang->getNsText( $res->page_namespace ) . ':' . $res->page_title;
+		}
+
+		return $res;
 	}
 
 }
