@@ -1,11 +1,10 @@
 /**
- * Created by JetBrains PhpStorm.
- * User: jeroen
- * Date: 5/6/12
- * Time: 7:26 PM
- * To change this template use File | Settings | File Templates.
+ * CSS for the Did You Know MediaWiki extension.
+ * @see https://www.mediawiki.org/wiki/Extension:Did_You_Know
+ *
+ * @licence GNU GPL v2+
+ * @author Jeroen De Dauw <jeroendedauw at gmail dot com>
  */
-
 
 div.didyouknow {
     background-color: #EDEFF5;

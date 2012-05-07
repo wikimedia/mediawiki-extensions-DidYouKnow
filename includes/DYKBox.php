@@ -1,12 +1,16 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: jeroen
- * Date: 5/6/12
- * Time: 6:53 PM
- * To change this template use File | Settings | File Templates.
- */
 
+/**
+ * Class representing a did you know box.
+ *
+ * @since 0.1
+ *
+ * @file
+ * @ingroup DYK
+ *
+ * @licence GNU GPL v2+
+ * @author Jeroen De Dauw < jeroendedauw@gmail.com >
+ */
 class DYKBox extends ContextSource {
 
 	protected $mainCategory;
