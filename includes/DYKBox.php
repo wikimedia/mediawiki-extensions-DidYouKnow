@@ -40,17 +40,17 @@ class DYKBox extends ContextSource {
 	public function getHTML() {
 		$html = '';
 
-		$html .= '<span class="didyouknow-header">';
-		$html .= $this->msg( 'didyouknow-header' )->escaped() . '<hr />';
-		$html .= '</span>';
+		$html .= '<h4 class="didyouknow-header">';
+		$html .= $this->msg( 'didyouknow-header' )->escaped();
+		$html .= '</h4>';
 
 		$title = $this->getArticleTitle();
 
 		if ( $title === false ) {
-			return 'TODO'; // TODO
+			return '';
 		}
 		else {
-			$html .= $this->getOutput()->parseInline( $this->getArticleContent( $title ) );
+			$html .= $this->getOutput()->parse( $this->getArticleContent( $title ) );
 		}
 
 		$html = Html::rawElement(

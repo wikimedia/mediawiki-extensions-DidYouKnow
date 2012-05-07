@@ -5,3 +5,22 @@
  * Time: 7:26 PM
  * To change this template use File | Settings | File Templates.
  */
+
+
+div.didyouknow {
+    background-color: #EDEFF5;
+    border-bottom: 1px solid #D2D9E6;
+    width: 300px;
+    position: static;
+    float: right;
+}
+
+h4.didyouknow-header {
+    padding: 5px 15px 4px;
+    border-bottom: 1px solid #A2A9B6;
+    border-top: 1px solid #A2A9B6;
+}
+
+div.didyouknow > p {
+    padding: 5px 25px 4px;
+}
