@@ -73,7 +73,7 @@ class DYKBox extends ContextSource {
 	 *
 	 * @return array
 	 */
-	public function getModules() {
+	public static function getModules() {
 		return array(
 			'ext.dyk'
 		);
@@ -86,7 +86,7 @@ class DYKBox extends ContextSource {
 	 */
 	public function display() {
 		$this->getOutput()->addHTML( $this->getHTML() );
-		$this->getOutput()->addModules( $this->getModules() );
+		$this->getOutput()->addModules( self::getModules() );
 	}
 
 	/**
