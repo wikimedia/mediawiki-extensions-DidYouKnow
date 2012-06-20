@@ -28,7 +28,7 @@ if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c becaus
 	die( '<b>Error:</b> Did You Know requires MediaWiki 1.18 or above.' );
 }
 
-define( 'DYK_VERSION', '0.1 alpha' );
+define( 'DYK_VERSION', '0.1' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
