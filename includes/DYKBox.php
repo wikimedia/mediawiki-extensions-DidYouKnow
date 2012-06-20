@@ -22,7 +22,7 @@ class DYKBox extends ContextSource {
 	 * @since 0.1
 	 *
 	 * @param string $mainCategory
-	 * @param string|false $specificCategory
+	 * @param string|bool $specificCategory
 	 * @param IContextSource|null $context
 	 */
 	public function __construct( $mainCategory, $specificCategory = false, IContextSource $context = null ) {
@@ -42,9 +42,7 @@ class DYKBox extends ContextSource {
 	 * @return string
 	 */
 	public function getHTML() {
-		$html = '';
-
-		$html .= '<h4 class="didyouknow-header">';
+		$html = '<h4 class="didyouknow-header">';
 		$html .= $this->msg( 'didyouknow-header' )->escaped();
 		$html .= '</h4>';
 
@@ -105,7 +103,7 @@ class DYKBox extends ContextSource {
 	/**
 	 * Returns the title for the article to get content from or false if there is none.
 	 *
-	 * @return Title|false
+	 * @return Title|bool
 	 */
 	protected function getArticleTitle() {
 		$pageName = false;
@@ -128,7 +126,7 @@ class DYKBox extends ContextSource {
 	 *
 	 * @param string$categoryName
 	 *
-	 * @return string|false
+	 * @return string|bool
 	 */
 	protected function getPageFromCategory( $categoryName ) {
 		global $wgContLang;
