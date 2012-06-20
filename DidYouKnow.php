@@ -49,9 +49,6 @@ $wgAutoloadClasses['DYKSettings'] 			= dirname( __FILE__ ) . '/DidYouKnow.settin
 $wgAutoloadClasses['DYKHooks'] 				= dirname( __FILE__ ) . '/DidYouKnow.hooks.php';
 $wgAutoloadClasses['DYKBox'] 				= dirname( __FILE__ ) . '/includes/DYKBox.php';
 
-// Hooks
-$wgHooks['LoadExtensionSchemaUpdates'][] 	= 'EPHooks::onSchemaUpdate';
-
 // Resource loader modules
 $moduleTemplate = array(
 	'localBasePath' => dirname( __FILE__ ) . '/resources',
