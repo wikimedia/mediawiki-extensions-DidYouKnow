@@ -28,7 +28,7 @@ if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c becaus
 	die( '<b>Error:</b> Did You Know requires MediaWiki 1.18 or above.' );
 }
 
-define( 'DYK_VERSION', '0.1' );
+define( 'DYK_VERSION', '0.2 alpha' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -57,7 +57,6 @@ $moduleTemplate = array(
 	'localBasePath' => dirname( __FILE__ ) . '/resources',
 	'remoteExtPath' => 'DidYouKnow/resources'
 );
-
 
 $wgResourceModules['ext.dyk'] = $moduleTemplate + array(
 	'styles' => array(

@@ -90,6 +90,8 @@ class DYKBox extends ContextSource {
 	/**
 	 * Returns the content for the article with provided title.
 	 *
+	 * @since 0.1
+	 *
 	 * @param Title $title
 	 *
 	 * @return string
@@ -102,6 +104,8 @@ class DYKBox extends ContextSource {
 
 	/**
 	 * Returns the title for the article to get content from or false if there is none.
+	 *
+	 * @since 0.1
 	 *
 	 * @return Title|bool
 	 */
@@ -124,7 +128,13 @@ class DYKBox extends ContextSource {
 	 * Note that the random function becomes inefficient for large result sets,
 	 * so this should only be used for small categories.
 	 *
-	 * @param string$categoryName
+	 * NOTE: this is only usable for small categories since the query becomes
+	 * expensive for big categories. So do not use for categories with potentially
+	 * hundreds of pages or more.
+	 *
+	 * @since 0.1
+	 *
+	 * @param string $categoryName
 	 *
 	 * @return string|bool
 	 */
