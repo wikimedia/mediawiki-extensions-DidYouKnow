@@ -22,10 +22,139 @@ $messages['en'] = array(
 	'didyouknow-header' => 'Did you know ... ?',
 );
 
-	/** Message documentation (Message documentation)
-	 * @author Jeroen De Dauw
-	 */
+/** Message documentation (Message documentation)
+ * @author Beta16
+ */
 $messages['qqq'] = array(
-	'didyouknow-desc' => 'Extension description for on Special:Version',
+	'didyouknow-desc' => '{{desc}}',
 	'didyouknow-header' => 'Message displayed as a header in the did you know box',
 );
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'didyouknow-desc' => 'Permite amosar un cuadru "¿Sabíes que..." rellenu col conteníu d\'una páxina de la wiki.',
+	'didyouknow-header' => '¿Sabíes que...',
+);
+
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'didyouknow-desc' => 'Адлюстраваньне блёку «Ці ведаеце вы?..» са зьместам з адвольнай вікі-старонкі.',
+	'didyouknow-header' => 'Ці ведаеце вы…',
+);
+
+/** German (Deutsch)
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'didyouknow-desc' => 'Ermöglicht das Anzeigen eines Kastens „Schon gewusst …?“, der die Inhalte aus Wikiseiten bestückt wird',
+	'didyouknow-header' => 'Schon gewusst …?',
+);
+
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'didyouknow-desc' => 'Permite mostrar una caja con el texto "Sabías que...?" rellena con contenidos de una página del wiki.',
+	'didyouknow-header' => '¿Sabías que...?',
+);
+
+/** French (français)
+ * @author DavidL
+ */
+$messages['fr'] = array(
+	'didyouknow-desc' => "Permet l'affichage d'une boîte « Saviez-vous...? » remplie avec le contenu d'une page wiki.",
+	'didyouknow-header' => 'Saviez-vous que... ?',
+);
+
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'didyouknow-desc' => 'Permite mostrar unha caixa "Sabía que...?" con contidos dunha páxina do wiki.',
+	'didyouknow-header' => 'Sabía que...?',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'didyouknow-desc' => 'Zmóžnja zwobraznjenje kašćika "Sy hižo wědźał ...? z wobsahom z wikitrony.',
+	'didyouknow-header' => 'Sy hižo wědźał ... ?',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'didyouknow-desc' => 'Permitte presentar un quadro "Sapeva tu que ... ?" reimplite con contento de un pagina del wiki.',
+	'didyouknow-header' => 'Sapeva tu que ... ?',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'didyouknow-desc' => 'Permette di visualizzare un riquadro "Lo sapevi che... ?" con contenuti da una pagina wiki.',
+	'didyouknow-header' => 'Lo sapevi che... ?',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'didyouknow-desc' => 'Määd_et müjjelesch, ene Kaste „{{int:didyouknow-header}}?“ aanzezeije, met Enhallde ussem Wiki.',
+	'didyouknow-header' => 'Hadd_Er ald jewoß&nbsp;…?',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'didyouknow-desc' => 'Erlaabt et eng "Woosst Dir schonn ...?" Këscht mam Inhalt vun enger Wiki-Säit ze weisen.',
+	'didyouknow-header' => 'Wosst Dir schonn ...?',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'didyouknow-desc' => 'Овозможува приказ на поле „Дали сте знаеле ... ?“ пополнето со содржината на некоја вики-страница.',
+	'didyouknow-header' => 'Дали сте знаеле ... ?',
+);
+
+/** Dutch (Nederlands)
+ * @author AvatarTeam
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'didyouknow-desc' => 'Maakt het mogelijk een "Wist u dat?"-venster weer te geven met inhoud van een wikipagina.',
+	'didyouknow-header' => 'Wist u dat...?',
+);
+
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'didyouknow-desc' => 'Umożliwia wyświetlanie pola "Czy wiesz że...?" wypełnionego zawartością na strony wiki.',
+	'didyouknow-header' => 'Czy wiesz że...?',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'didyouknow-header' => 'మీకు తెలుసా...?',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'didyouknow-desc' => 'Nagpapahintulot sa pagpapakita ng isang kahon ng "Alam ba ninyo ... ?" na pinuno ng laman mula sa isang pahina ng wiki.',
+	'didyouknow-header' => 'Alam ba ninyo ... ?',
+);
+
