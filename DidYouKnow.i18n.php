@@ -54,6 +54,14 @@ $messages['de'] = array(
 	'didyouknow-header' => 'Schon gewusst …?',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'didyouknow-desc' => 'Zmóžnja zwobraznjenje kašćika "Sy južo wěźěł ...? z wopśimjeśim z wikiboka.',
+	'didyouknow-header' => 'Sy južo wěźeł ... ?',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
