@@ -54,7 +54,7 @@ $messages['de'] = array(
 	'didyouknow-header' => 'Schon gewusst …?',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
