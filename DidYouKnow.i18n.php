@@ -46,6 +46,14 @@ $messages['be-tarask'] = array(
 	'didyouknow-header' => 'Ці ведаеце вы…',
 );
 
+/** Breton (brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'didyouknow-desc' => 'Talvezout a ra da ziskwel ur voest enni an destenn "Ha gouzout a rit ... ?" leuniet gant danvez a zeu eus ur bajenn wiki',
+	'didyouknow-header' => 'Ha gouzout a rit... ?',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
