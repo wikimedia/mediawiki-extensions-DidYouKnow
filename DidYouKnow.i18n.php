@@ -118,6 +118,14 @@ $messages['it'] = array(
 	'didyouknow-header' => 'Lo sapevi che... ?',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'didyouknow-desc' => '위키 문서에서 내용으로 박스로 채워진 "알고 계십니까 ... ?"가 보이도록 허용',
+	'didyouknow-header' => '알고 계십니까 ... ?',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
