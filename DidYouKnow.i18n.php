@@ -167,6 +167,14 @@ $messages['pl'] = array(
 	'didyouknow-header' => 'Czy wiesz że...?',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'didyouknow-desc' => 'Låter en ruta med texten "Visste du ...?" samt fylld med innehåll från en wikisida visas.',
+	'didyouknow-header' => 'Visste du ...?',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -180,5 +188,13 @@ $messages['te'] = array(
 $messages['tl'] = array(
 	'didyouknow-desc' => 'Nagpapahintulot sa pagpapakita ng isang kahon ng "Alam ba ninyo ... ?" na pinuno ng laman mula sa isang pahina ng wiki.',
 	'didyouknow-header' => 'Alam ba ninyo ... ?',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'didyouknow-desc' => 'Cho phép hiển thị hộp “Bạn có biết…?” chứa nội dung của một trang wiki',
+	'didyouknow-header' => 'Bạn có biết…?',
 );
 
