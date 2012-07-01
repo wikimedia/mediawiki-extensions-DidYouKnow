@@ -38,7 +38,7 @@ $messages['ast'] = array(
 	'didyouknow-header' => '¿Sabíes que...',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -94,7 +94,7 @@ $messages['gl'] = array(
 	'didyouknow-header' => 'Sabía que...?',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
