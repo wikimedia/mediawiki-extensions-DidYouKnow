@@ -30,6 +30,13 @@ $messages['qqq'] = array(
 	'didyouknow-header' => 'Message displayed as a header in the did you know box',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'didyouknow-header' => 'আপুনি জানেনে ...?',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
