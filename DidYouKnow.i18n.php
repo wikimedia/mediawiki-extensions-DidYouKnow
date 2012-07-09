@@ -149,6 +149,13 @@ $messages['lb'] = array(
 	'didyouknow-header' => 'Wosst Dir schonn ...?',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'didyouknow-header' => 'Ar žinojote ... ?',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
