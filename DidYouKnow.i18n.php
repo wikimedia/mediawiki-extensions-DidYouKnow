@@ -69,6 +69,13 @@ $messages['de'] = array(
 	'didyouknow-header' => 'Schon gewusst …?',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'didyouknow-header' => 'Şıma zanê ... ?',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
