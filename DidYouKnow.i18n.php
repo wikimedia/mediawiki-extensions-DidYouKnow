@@ -188,6 +188,13 @@ $messages['pl'] = array(
 	'didyouknow-header' => 'Czy wiesz że...?',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'didyouknow-header' => 'ඔබ දන්නවාද ... ?',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
