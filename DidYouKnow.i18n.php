@@ -132,6 +132,21 @@ $messages['it'] = array(
 	'didyouknow-header' => 'Lo sapevi che... ?',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'didyouknow-desc' => 'ウィキページの本文を埋め込んだ「ご存じでしたか ... ?」ボックスを表示できるようにする。',
+	'didyouknow-header' => 'ご存じでしたか ... ?',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'didyouknow-header' => 'თქვენ იცით ... ?',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -178,6 +193,13 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'didyouknow-desc' => 'Maakt het mogelijk een "Wist u dat?"-venster weer te geven met inhoud van een wikipagina.',
 	'didyouknow-header' => 'Wist u dat...?',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'didyouknow-header' => 'ଆପଣ ଜାଣନ୍ତି କି... ?',
 );
 
 /** Polish (polski)
