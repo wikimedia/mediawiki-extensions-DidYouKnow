@@ -108,6 +108,15 @@ $messages['gl'] = array(
 	'didyouknow-header' => 'Sabía que...?',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ * @author Inkbug
+ */
+$messages['he'] = array(
+	'didyouknow-desc' => 'אפשרות להציג תיבת "הידעת?" עם תוכן של דף ויקי.',
+	'didyouknow-header' => 'הידעת ש... ?',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -208,6 +217,14 @@ $messages['or'] = array(
 $messages['pl'] = array(
 	'didyouknow-desc' => 'Umożliwia wyświetlanie pola "Czy wiesz że...?" wypełnionego zawartością na strony wiki.',
 	'didyouknow-header' => 'Czy wiesz że...?',
+);
+
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'didyouknow-desc' => 'Позволяет отображать поле "Знаете ли вы...?" с содержимым из вики-страницы.',
+	'didyouknow-header' => 'Знаете ли вы...?',
 );
 
 /** Sinhala (සිංහල)
