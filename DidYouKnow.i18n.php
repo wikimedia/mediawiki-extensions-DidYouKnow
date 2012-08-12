@@ -242,6 +242,13 @@ $messages['sv'] = array(
 	'didyouknow-header' => 'Visste du ...?',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'didyouknow-header' => 'உங்களுக்குத் தெரியுமா ... ?',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
