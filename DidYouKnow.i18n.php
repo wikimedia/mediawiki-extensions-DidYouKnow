@@ -195,6 +195,14 @@ $messages['mk'] = array(
 	'didyouknow-header' => 'Дали сте знаеле ... ?',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'didyouknow-desc' => 'Membolehkan pemaparan petak "Tahukah anda ... ?" yang berisi kandungan dari halaman wiki.',
+	'didyouknow-header' => 'Tahukah anda ... ?',
+);
+
 /** Dutch (Nederlands)
  * @author AvatarTeam
  * @author Siebrand
@@ -217,6 +225,13 @@ $messages['or'] = array(
 $messages['pl'] = array(
 	'didyouknow-desc' => 'Umożliwia wyświetlanie pola "Czy wiesz że...?" wypełnionego zawartością na strony wiki.',
 	'didyouknow-header' => 'Czy wiesz że...?',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'didyouknow-header' => "'U sapive ... ?",
 );
 
 /** Russian (русский)
