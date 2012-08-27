@@ -42,16 +42,16 @@ $wgExtensionCredits['other'][] = array(
 );
 
 // i18n
-$wgExtensionMessagesFiles['DidYouKnow'] 	= dirname( __FILE__ ) . '/DidYouKnow.i18n.php';
+$wgExtensionMessagesFiles['DidYouKnow'] 	= __DIR__ . '/DidYouKnow.i18n.php';
 
 // Autoloading
-$wgAutoloadClasses['DYKSettings'] 			= dirname( __FILE__ ) . '/DidYouKnow.settings.php';
-$wgAutoloadClasses['DYKHooks'] 				= dirname( __FILE__ ) . '/DidYouKnow.hooks.php';
-$wgAutoloadClasses['DYKBox'] 				= dirname( __FILE__ ) . '/includes/DYKBox.php';
+$wgAutoloadClasses['DYKSettings'] 			= __DIR__ . '/DidYouKnow.settings.php';
+$wgAutoloadClasses['DYKHooks'] 				= __DIR__ . '/DidYouKnow.hooks.php';
+$wgAutoloadClasses['DYKBox'] 				= __DIR__ . '/includes/DYKBox.php';
 
 // Resource loader modules
 $moduleTemplate = array(
-	'localBasePath' => dirname( __FILE__ ) . '/resources',
+	'localBasePath' => __DIR__ . '/resources',
 	'remoteExtPath' => 'DidYouKnow/resources'
 );
 
