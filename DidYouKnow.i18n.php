@@ -227,6 +227,14 @@ $messages['pl'] = array(
 	'didyouknow-header' => 'Czy wiesz że...?',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'didyouknow-desc' => 'A përmëtt ëd visualisé un quàder "It sas-to ... ?" vempì con contnù da na pagina wiki.',
+	'didyouknow-header' => 'It sas-to ... ?',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
