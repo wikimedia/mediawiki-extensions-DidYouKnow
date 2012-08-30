@@ -228,11 +228,12 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'didyouknow-desc' => 'A përmëtt ëd visualisé un quàder "It sas-to ... ?" vempì con contnù da na pagina wiki.',
-	'didyouknow-header' => 'It sas-to ... ?',
+	'didyouknow-desc' => 'A përmët ëd visualisé un quàder «A savìa...?» ampinì con ël contnù ëd na pàgina wiki.',
+	'didyouknow-header' => 'A savìa che...?',
 );
 
 /** tarandíne (tarandíne)
