@@ -236,6 +236,14 @@ $messages['pms'] = array(
 	'didyouknow-header' => 'A savìa che...?',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'didyouknow-desc' => 'د يوه "آيا پدې پوهېدلې ... ؟" چوکاټ چې د ويکي د يوه مخ منځپانګې نه برخمن دی ښکاره کوي.',
+	'didyouknow-header' => 'آيا پدې پوهېدلې ... ؟',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
