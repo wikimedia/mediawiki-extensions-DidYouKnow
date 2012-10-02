@@ -45,7 +45,7 @@ $messages['ast'] = array(
 	'didyouknow-header' => '¿Sabíes que...',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -154,6 +154,13 @@ $messages['ja'] = array(
  */
 $messages['ka'] = array(
 	'didyouknow-header' => 'თქვენ იცით ... ?',
+);
+
+/** Khowar (کھوار)
+ * @author Toliño
+ */
+$messages['khw'] = array(
+	'didyouknow-header' => 'پساتے معلوم شیرا؟',
 );
 
 /** Korean (한국어)
