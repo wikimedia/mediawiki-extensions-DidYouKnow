@@ -45,6 +45,14 @@ $messages['ast'] = array(
 	'didyouknow-header' => '¿Sabíes que...',
 );
 
+/** Belarusian (беларуская)
+ * @author Чаховіч Уладзіслаў
+ */
+$messages['be'] = array(
+	'didyouknow-desc' => 'Дазваляе адлюстроўваць поле "Ці ведаеце вы...?" са змесцівам з вікі-старонкі.',
+	'didyouknow-header' => 'Ці ведаеце вы...?',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
