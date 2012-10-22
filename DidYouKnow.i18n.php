@@ -318,4 +318,3 @@ $messages['vi'] = array(
 	'didyouknow-desc' => 'Cho phép hiển thị hộp “Bạn có biết…?” chứa nội dung của một trang wiki',
 	'didyouknow-header' => 'Bạn có biết…?',
 );
-
