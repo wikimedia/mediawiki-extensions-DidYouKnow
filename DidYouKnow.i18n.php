@@ -318,3 +318,11 @@ $messages['vi'] = array(
 	'didyouknow-desc' => 'Cho phép hiển thị hộp “Bạn có biết…?” chứa nội dung của một trang wiki',
 	'didyouknow-header' => 'Bạn có biết…?',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'didyouknow-desc' => '显示一个“你知道吗？”框，内容来自一个wiki页面。',
+	'didyouknow-header' => '你知道吗？',
+);
