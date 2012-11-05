@@ -24,8 +24,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
-if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c because version_compare() works in confusing ways.
-	die( '<b>Error:</b> Did You Know requires MediaWiki 1.18 or above.' );
+if ( version_compare( $wgVersion, '1.21c', '<' ) ) { // Needs to be 1.21c because version_compare() works in confusing ways.
+	die( '<b>Error:</b> Did You Know requires MediaWiki 1.21 or above.' );
 }
 
 define( 'DYK_VERSION', '0.2 alpha' );

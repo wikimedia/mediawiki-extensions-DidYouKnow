@@ -4,6 +4,11 @@ Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Did_Yo
 Latest version of the release notes: https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/DidYouKnow.git;a=blob;f=RELEASE-NOTES
 
 
+=== Version 0.2 ===
+(dev)
+
+* Added compatibility with MediaWiki 1.21.
+* Dropped compatibility with MediaWiki < 1.21.
 
 === Version 0.1 ===
 (2012-6-20)

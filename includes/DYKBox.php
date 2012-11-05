@@ -97,9 +97,19 @@ class DYKBox extends ContextSource {
 	 * @return string
 	 */
 	protected function getArticleContent( Title $title ) {
-		$article = new Article( $title, 0 );
-		$content = $article->fetchContent();
-		return is_string( $content ) ? $content : '';
+		$wikiPage = WikiPage::newFromID( $title->getArticleID() );
+
+		if ( is_null( $wikiPage ) ) {
+			return '';
+		}
+
+		$content = $wikiPage->getContent();
+
+		if ( is_null( $content ) || !( $content instanceof TextContent ) ) {
+			return '';
+		}
+
+		return $content->getNativeData();
 	}
 
 	/**
