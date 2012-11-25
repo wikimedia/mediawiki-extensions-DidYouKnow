@@ -311,6 +311,14 @@ $messages['tl'] = array(
 	'didyouknow-header' => 'Alam ba ninyo ... ?',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'didyouknow-desc' => 'Дозволяє відображати поле «Чи знаєте Ви…?» із вмістом з вікі-сторінки.',
+	'didyouknow-header' => 'Чи знаєте Ви…?',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
