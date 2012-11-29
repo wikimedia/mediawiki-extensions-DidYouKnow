@@ -100,6 +100,14 @@ $messages['es'] = array(
 	'didyouknow-header' => '¿Sabías que...?',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'didyouknow-desc' => 'Mahdollista jonkun wikisivun sisällön täyttämän "Tiesitkö, että...?" -laatikon näyttämisen.',
+	'didyouknow-header' => 'Tiesitkö, että...?',
+);
+
 /** French (français)
  * @author DavidL
  */
