@@ -100,6 +100,13 @@ $messages['es'] = array(
 	'didyouknow-header' => '¿Sabías que...?',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'didyouknow-header' => 'Kas sa teadsid, et...?',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
@@ -147,6 +154,14 @@ $messages['hsb'] = array(
 $messages['ia'] = array(
 	'didyouknow-desc' => 'Permitte presentar un quadro "Sapeva tu que ... ?" reimplite con contento de un pagina del wiki.',
 	'didyouknow-header' => 'Sapeva tu que ... ?',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'didyouknow-desc' => 'Memungkinkan penampilan kotak "Tahukah Anda ... ?" yang berisi konten dari halaman wiki.',
+	'didyouknow-header' => 'Tahukah Anda ... ?',
 );
 
 /** Italian (italiano)
@@ -265,6 +280,13 @@ $messages['pms'] = array(
 $messages['ps'] = array(
 	'didyouknow-desc' => 'د يوه "آيا پدې پوهېدلې ... ؟" چوکاټ چې د ويکي د يوه مخ منځپانګې نه برخمن دی ښکاره کوي.',
 	'didyouknow-header' => 'آيا پدې پوهېدلې ... ؟',
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'didyouknow-header' => 'Știați că ... ?',
 );
 
 /** tarandíne (tarandíne)
