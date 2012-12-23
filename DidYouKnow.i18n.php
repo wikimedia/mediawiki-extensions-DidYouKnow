@@ -92,6 +92,14 @@ $messages['dsb'] = array(
 	'didyouknow-header' => 'Sy južo wěźeł ... ?',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'didyouknow-desc' => 'Aldonas sekcion "Ĉu vi scias ... ?" enhavante informaĵojn de vikipaĝo.',
+	'didyouknow-header' => 'Ĉu vi scias ... ?',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
