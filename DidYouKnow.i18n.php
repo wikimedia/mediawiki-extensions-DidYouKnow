@@ -156,6 +156,14 @@ $messages['hsb'] = array(
 	'didyouknow-header' => 'Sy hižo wědźał ... ?',
 );
 
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'didyouknow-desc' => 'Lehetővé teszi a "Tudtad, hogy...?" doboz megjelenítését, és feltöltését wiki cikkekből.',
+	'didyouknow-header' => 'Tudtad, hogy...?',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
