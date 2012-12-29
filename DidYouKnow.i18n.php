@@ -92,6 +92,13 @@ $messages['dsb'] = array(
 	'didyouknow-header' => 'Sy južo wěźeł ... ?',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'didyouknow-header' => 'Γνωρίζατε ότι ... ;',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
