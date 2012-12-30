@@ -45,6 +45,13 @@ $messages['ast'] = array(
 	'didyouknow-header' => '¿Sabíes que...',
 );
 
+/** Bashkir (башҡортса)
+ * @author Ләйсән
+ */
+$messages['ba'] = array(
+	'didyouknow-header' => 'Беләһегеҙме...?',
+);
+
 /** Belarusian (беларуская)
  * @author Чаховіч Уладзіслаў
  */
@@ -67,6 +74,13 @@ $messages['be-tarask'] = array(
 $messages['br'] = array(
 	'didyouknow-desc' => 'Talvezout a ra da ziskwel ur voest enni an destenn "Ha gouzout a rit ... ?" leuniet gant danvez a zeu eus ur bajenn wiki',
 	'didyouknow-header' => 'Ha gouzout a rit... ?',
+);
+
+/** Catalan (català)
+ * @author Arnaugir
+ */
+$messages['ca'] = array(
+	'didyouknow-header' => 'Sabies que...?',
 );
 
 /** German (Deutsch)
@@ -136,6 +150,13 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'didyouknow-desc' => "Permet l'affichage d'une boîte « Saviez-vous...? » remplie avec le contenu d'une page wiki.",
 	'didyouknow-header' => 'Saviez-vous que... ?',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'didyouknow-header' => 'Saviévâd-vos que... ?',
 );
 
 /** Galician (galego)
@@ -271,6 +292,14 @@ $messages['ms'] = array(
 $messages['nl'] = array(
 	'didyouknow-desc' => 'Maakt het mogelijk een "Wist u dat?"-venster weer te geven met inhoud van een wikipagina.',
 	'didyouknow-header' => 'Wist u dat...?',
+);
+
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'didyouknow-desc' => 'Maakt het mogelijk een "Wist je dat?"-venster weer te geven met inhoud van een wikipagina.',
+	'didyouknow-header' => 'Wist je dat...?',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
