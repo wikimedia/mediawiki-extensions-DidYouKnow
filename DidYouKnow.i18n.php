@@ -83,6 +83,13 @@ $messages['ca'] = array(
 	'didyouknow-header' => 'Sabies que...?',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'didyouknow-header' => 'Věděli jste...?',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -174,6 +181,14 @@ $messages['gl'] = array(
 $messages['he'] = array(
 	'didyouknow-desc' => 'אפשרות להציג תיבת "הידעת?" עם תוכן של דף ויקי.',
 	'didyouknow-header' => 'הידעת ש... ?',
+);
+
+/** Croatian (hrvatski)
+ * @author SpeedyGonsales
+ */
+$messages['hr'] = array(
+	'didyouknow-desc' => 'Dopušta prikaz "Jeste li znali ..." okvira sa sadržajem s wiki stranica.',
+	'didyouknow-header' => 'Jeste li znali ... ?',
 );
 
 /** Upper Sorbian (hornjoserbsce)
