@@ -360,6 +360,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'didyouknow-desc' => "Permette de fà vedè 'nu \"'U sapive ... ?\" anghiute cu le condenute da 'a pàgene de uicchi.",
 	'didyouknow-header' => "'U sapive ... ?",
 );
 
