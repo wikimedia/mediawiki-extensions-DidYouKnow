@@ -432,3 +432,11 @@ $messages['zh-hans'] = array(
 	'didyouknow-desc' => '显示一个“你知道吗？”框，内容来自一个wiki页面。',
 	'didyouknow-header' => '你知道吗？',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'didyouknow-desc' => '顯示來自一wiki頁面內容的"您知道嗎?"框。',
+	'didyouknow-header' => '你知道嗎？',
+);
