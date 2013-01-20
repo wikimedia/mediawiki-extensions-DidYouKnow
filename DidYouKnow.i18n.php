@@ -45,6 +45,14 @@ $messages['ast'] = array(
 	'didyouknow-header' => '¿Sabíes que...',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'didyouknow-desc' => 'همیشه بیر ویکی صحیفه‌سیندن دولدورولموش بیر «بیلیردینیزمی ...؟» قوتوسو گؤستریر.',
+	'didyouknow-header' => 'بیلیردینیزمی ... ؟',
+);
+
 /** Bashkir (башҡортса)
  * @author Ләйсән
  */
