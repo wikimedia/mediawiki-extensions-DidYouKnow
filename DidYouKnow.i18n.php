@@ -122,9 +122,11 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Glavkos
  * @author ZaDiak
  */
 $messages['el'] = array(
+	'didyouknow-desc' => 'Επιτρέπει την εμφάνιση ενός πλαισίου «Γνωρίζατε ότι...;» συμπληρωμένο με περιεχόμενο από μια σελίδα wiki.',
 	'didyouknow-header' => 'Γνωρίζατε ότι ... ;',
 );
 
