@@ -24,9 +24,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Beta16
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'didyouknow-desc' => '{{desc}}',
+	'didyouknow-desc' => '{{desc|name=Did You Know|url=http://www.mediawiki.org/wiki/Extension:Did_You_Know}}',
 	'didyouknow-header' => 'Message displayed as a header in the did you know box',
 );
 
