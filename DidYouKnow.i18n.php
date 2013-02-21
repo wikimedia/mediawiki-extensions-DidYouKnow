@@ -28,7 +28,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'didyouknow-desc' => '{{desc|name=Did You Know|url=http://www.mediawiki.org/wiki/Extension:Did_You_Know}}',
-	'didyouknow-header' => 'Message displayed as a header in the did you know box',
+	'didyouknow-header' => 'Message displayed as a header in the did you know box.
+{{Identical|Did you know}}',
 );
 
 /** Assamese (অসমীয়া)
