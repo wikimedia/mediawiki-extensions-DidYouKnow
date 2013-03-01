@@ -296,6 +296,14 @@ $messages['lt'] = array(
 	'didyouknow-header' => 'Ar žinojote ... ?',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'didyouknow-desc' => 'Mamungkinkan manampilan kotak "Lai Tau Sanak ... ?" nan barisi konten dari laman wiki.',
+	'didyouknow-header' => 'Lai Tau Sanak ... ?',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
