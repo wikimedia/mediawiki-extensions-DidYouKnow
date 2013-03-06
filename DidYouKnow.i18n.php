@@ -155,6 +155,14 @@ $messages['et'] = array(
 	'didyouknow-header' => 'Kas sa teadsid, et...?',
 );
 
+/** Basque (euskara)
+ * @author Xabier Armendaritz
+ */
+$messages['eu'] = array(
+	'didyouknow-desc' => '«Ba al zenekien...?» testua duen lauki bat erakustea ahalbidetzen du. Wiki orri bateko edukia agertuko da hor.',
+	'didyouknow-header' => 'Ba al zenekien...?',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
