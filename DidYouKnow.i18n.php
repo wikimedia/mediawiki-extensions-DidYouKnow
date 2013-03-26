@@ -32,6 +32,13 @@ $messages['qqq'] = array(
 {{Identical|Did you know}}',
 );
 
+/** Arabic (العربية)
+ * @author ترجمان05
+ */
+$messages['ar'] = array(
+	'didyouknow-header' => 'هل تعرف ... ؟',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
