@@ -444,6 +444,13 @@ $messages['tl'] = array(
 	'didyouknow-header' => 'Alam ba ninyo ... ?',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'didyouknow-header' => 'Biliyor muydunuz?',
+);
+
 /** Ukrainian (українська)
  * @author Base
  */
