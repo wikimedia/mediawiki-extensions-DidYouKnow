@@ -39,7 +39,7 @@ $messages['ar'] = array(
 	'didyouknow-header' => 'هل تعرف ... ؟',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -352,7 +352,7 @@ $messages['nl-informal'] = array(
 	'didyouknow-header' => 'Wist je dat...?',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
