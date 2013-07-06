@@ -359,6 +359,13 @@ $messages['or'] = array(
 	'didyouknow-header' => 'ଆପଣ ଜାଣନ୍ତି କି... ?',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Babanwalia
+ */
+$messages['pa'] = array(
+	'didyouknow-header' => 'ਕੀ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ... ?',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
