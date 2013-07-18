@@ -170,6 +170,13 @@ $messages['eu'] = array(
 	'didyouknow-header' => 'Ba al zenekien...?',
 );
 
+/** Persian (فارسی)
+ * @author Alireza
+ */
+$messages['fa'] = array(
+	'didyouknow-header' => 'آیا می‌دانستید...؟',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
