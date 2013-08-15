@@ -318,6 +318,13 @@ $messages['lt'] = array(
 	'didyouknow-header' => 'Ar žinojote ... ?',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'didyouknow-header' => 'Vai tu zināji...?',
+);
+
 /** Minangkabau (Baso Minangkabau)
  * @author Iwan Novirion
  */
