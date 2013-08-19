@@ -185,6 +185,14 @@ $messages['fi'] = array(
 	'didyouknow-header' => 'Tiesitkö, että...?',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'didyouknow-desc' => 'Loyvir einum kassa við tekstinum "Visti tú ... ?" at vísast, kassin er fullur av innihaldi frá einari wikisíðu.',
+	'didyouknow-header' => 'Visti tú ... ?',
+);
+
 /** French (français)
  * @author DavidL
  */
