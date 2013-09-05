@@ -413,6 +413,21 @@ $messages['ps'] = array(
 	'didyouknow-header' => 'آيا پدې پوهېدلې ... ؟',
 );
 
+/** Portuguese (português)
+ * @author Cainamarques
+ */
+$messages['pt'] = array(
+	'didyouknow-header' => 'Você sabia ... ?',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'didyouknow-desc' => 'Permite a exibição de uma caixa "Você sabia ... ?" com conteúdo preenchido a partir de uma página wiki.',
+	'didyouknow-header' => 'Você sabia ... ?',
+);
+
 /** Romanian (română)
  * @author Firilacroco
  */
