@@ -216,6 +216,14 @@ $messages['gl'] = array(
 	'didyouknow-header' => 'Sabía que...?',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'didyouknow-desc' => '"Tuka khobor asa ... ?" dakhonk dita eka wiki panan-sun mahiti gheun.',
+	'didyouknow-header' => 'Tuka khobor asa ... ?',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Inkbug
@@ -409,7 +417,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'didyouknow-desc' => 'د يوه "آيا پدې پوهېدلې ... ؟" چوکاټ چې د ويکي د يوه مخ منځپانګې نه برخمن دی ښکاره کوي.',
+	'didyouknow-desc' => 'د يوه "آيا پدې پوهېدلې ... ؟" چوکاټ چې د ويکي د يوه مخ منځپانگې نه برخمن دی ښکاره کوي.',
 	'didyouknow-header' => 'آيا پدې پوهېدلې ... ؟',
 );
 
