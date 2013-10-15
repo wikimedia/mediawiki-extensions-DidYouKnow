@@ -172,9 +172,10 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Alireza
+ * @author Ebraminio
  */
 $messages['fa'] = array(
-	'didyouknow-header' => 'آیا می‌دانستید...؟',
+	'didyouknow-header' => 'آیا می‌دانستید که ...؟',
 );
 
 /** Finnish (suomi)
