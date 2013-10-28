@@ -383,6 +383,13 @@ $messages['nl-informal'] = array(
 	'didyouknow-header' => 'Wist je dat...?',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'didyouknow-header' => 'Sabiatz que... ?',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
