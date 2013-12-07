@@ -100,7 +100,7 @@ $messages['ca'] = array(
 	'didyouknow-header' => 'Sabies que...?',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
