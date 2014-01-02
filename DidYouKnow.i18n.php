@@ -172,9 +172,11 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Alireza
+ * @author Armin1392
  * @author Ebraminio
  */
 $messages['fa'] = array(
+	'didyouknow-desc' => 'اجازهٔ نمایش جعبهٔ "آیا می‌دانستید... ؟" پر شده با محتوا از یک صفحهٔ ویکی.',
 	'didyouknow-header' => 'آیا می‌دانستید که ...؟',
 );
 
