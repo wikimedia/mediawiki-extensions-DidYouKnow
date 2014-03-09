@@ -433,9 +433,11 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Cainamarques
+ * @author Hamilton Abreu
  */
 $messages['pt'] = array(
-	'didyouknow-header' => 'Você sabia ... ?',
+	'didyouknow-desc' => 'Permite apresentar uma caixa "Sabia que ... ?" preenchida com conteúdo de uma página da wiki.',
+	'didyouknow-header' => 'Sabia que ... ?',
 );
 
 /** Brazilian Portuguese (português do Brasil)
