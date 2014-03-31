@@ -42,6 +42,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 // i18n
+$wgMessagesDirs['DidYouKnow'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['DidYouKnow'] 	= __DIR__ . '/DidYouKnow.i18n.php';
 
 // Autoloading

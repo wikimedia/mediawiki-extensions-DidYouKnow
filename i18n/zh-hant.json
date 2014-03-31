@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Simon Shek"
+        ]
+    },
+    "didyouknow-desc": "顯示來自一wiki頁面內容的\"您知道嗎?\"框。",
+    "didyouknow-header": "你知道嗎？"
+}
