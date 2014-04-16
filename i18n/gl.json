@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "didyouknow-desc": "Permite mostrar unha caixa \"Sabía que...?\" con contidos dunha páxina do wiki.",
-    "didyouknow-header": "Sabía que...?"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"didyouknow-desc": "Permite mostrar unha caixa \"Sabía que...?\" con contidos dunha páxina do wiki.",
+	"didyouknow-header": "Sabía que...?"
 }

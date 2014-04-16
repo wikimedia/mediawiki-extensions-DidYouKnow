@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nedergard"
-        ]
-    },
-    "didyouknow-desc": "Mahdollista jonkun wikisivun sisällön täyttämän \"Tiesitkö, että...?\" -laatikon näyttämisen.",
-    "didyouknow-header": "Tiesitkö, että...?"
+	"@metadata": {
+		"authors": [
+			"Nedergard"
+		]
+	},
+	"didyouknow-desc": "Mahdollista jonkun wikisivun sisällön täyttämän \"Tiesitkö, että...?\" -laatikon näyttämisen.",
+	"didyouknow-header": "Tiesitkö, että...?"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "DavidL"
-        ]
-    },
-    "didyouknow-desc": "Permet l'affichage d'une boîte « Saviez-vous...? » remplie avec le contenu d'une page wiki.",
-    "didyouknow-header": "Saviez-vous que... ?"
+	"@metadata": {
+		"authors": [
+			"DavidL"
+		]
+	},
+	"didyouknow-desc": "Permet l'affichage d'une boîte « Saviez-vous...? » remplie avec le contenu d'une page wiki.",
+	"didyouknow-header": "Saviez-vous que... ?"
 }
