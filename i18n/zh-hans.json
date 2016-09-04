@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"didyouknow-desc": "显示一个“你知道吗？”框，内容来自一个wiki页面。",
-	"didyouknow-header": "你知道吗？"
+	"didyouknow-header": "您知道吗？"
 }
