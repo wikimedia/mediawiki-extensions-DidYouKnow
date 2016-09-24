@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eleassar"
+			"Eleassar",
+			"Dbc334"
 		]
 	},
-	"didyouknow-desc": "Omogoča prikaz polja »Ste vedeli ...?« z vsebino z wikistrani."
+	"didyouknow-desc": "Omogoča prikaz polja »Ste vedeli ...?« z vsebino z wikistrani.",
+	"didyouknow-header": "Ali ste vedeli ...?"
 }
