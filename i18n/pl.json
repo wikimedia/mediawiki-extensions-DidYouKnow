@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"BeginaFelicysym"
+			"BeginaFelicysym",
+			"Railfail536"
 		]
 	},
-	"didyouknow-desc": "Umożliwia wyświetlanie pola \"Czy wiesz że...?\" wypełnionego zawartością na strony wiki.",
-	"didyouknow-header": "Czy wiesz że...?"
+	"didyouknow-desc": "Umożliwia wyświetlanie pola „Czy wiesz że…?” wypełnionego zawartością na strony wiki",
+	"didyouknow-header": "Czy wiesz że…?"
 }
