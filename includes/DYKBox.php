@@ -109,7 +109,7 @@ class DYKBox extends ContextSource {
 			return '';
 		}
 
-		return $content->getNativeData();
+		return $content->getText();
 	}
 
 	/**
