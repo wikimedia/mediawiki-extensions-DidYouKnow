@@ -151,7 +151,7 @@ class DYKBox extends ContextSource {
 	protected function getPageFromCategory( $categoryName ) {
 		global $wgContLang;
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->selectRow(
 			array( 'page', 'categorylinks' ),
 			array( 'page_namespace', 'page_title' ),
