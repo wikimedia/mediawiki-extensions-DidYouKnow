@@ -52,7 +52,7 @@ class DYKBox extends ContextSource {
 			return '';
 		}
 		else {
-			$html .= $this->getOutput()->parse( $this->getArticleContent( $title ) );
+			$html .= $this->getOutput()->parseAsContent( $this->getArticleContent( $title ) );
 		}
 
 		$html = Html::rawElement(
