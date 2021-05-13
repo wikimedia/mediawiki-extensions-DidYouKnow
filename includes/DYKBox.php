@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Class representing a did you know box.
  *
@@ -149,8 +151,6 @@ class DYKBox extends ContextSource {
 	 * @return string|bool
 	 */
 	protected function getPageFromCategory( $categoryName ) {
-		global $wgContLang;
-
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->selectRow(
 			array( 'page', 'categorylinks' ),
@@ -164,7 +164,8 @@ class DYKBox extends ContextSource {
 		);
 
 		if ( $res !== false ) {
-			$res = $wgContLang->getNsText( $res->page_namespace ) . ':' . $res->page_title;
+			$contentLanguage = MediaWikiServices::getInstance()->getContentLanguage();
+			$res = $contentLanguage->getNsText( $res->page_namespace ) . ':' . $res->page_title;
 		}
 
 		return $res;
