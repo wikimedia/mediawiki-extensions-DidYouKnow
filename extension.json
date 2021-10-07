@@ -17,7 +17,6 @@
 	},
 	"AutoloadClasses": {
 		"DYKSettings": "DidYouKnow.settings.php",
-		"DYKHooks": "DidYouKnow.hooks.php",
 		"DYKBox": "includes/DYKBox.php"
 	},
 	"ResourceModules": {

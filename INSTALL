@@ -4,20 +4,13 @@ Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Did_Yo
 Latest version of the install file: https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/DidYouKnow.git;a=blob;f=INSTALL
 
 
-== Requirements ==
-
-Education Program requires:
-
-* MediaWiki 1.18 or above
-* PHP 5.2 or above
-
 == Installation ==
 
 Once you have downloaded the code, place the ''DidYouKnow'' directory within your MediaWiki
 'extensions' directory. Then add the following code to your [[Manual:LocalSettings.php|LocalSettings.php]] file:
 
 # Did You Know
-require_once( "$IP/extensions/DidYouKnow/DidYouKnow.php" );
+wfLoadExtension( 'DidYouKnow' );
 
 == Configuration ==
 
