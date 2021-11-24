@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armando-Martin"
+			"Armando-Martin",
+			"Jakeukalane"
 		]
 	},
-	"didyouknow-desc": "Permite mostrar una caja con el texto \"Sabías que...?\" rellena con contenidos de una página del wiki.",
-	"didyouknow-header": "¿Sabías que...?"
+	"didyouknow-desc": "Permite mostrar una caja con el texto \"¿Sabías que…?\" rellena con contenidos de una página de la wiki.",
+	"didyouknow-header": "¿Sabías que…?"
 }
