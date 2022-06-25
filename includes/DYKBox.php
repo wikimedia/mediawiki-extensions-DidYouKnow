@@ -99,7 +99,12 @@ class DYKBox extends ContextSource {
 	 * @return string
 	 */
 	protected function getArticleContent( Title $title ) {
-		$wikiPage = WikiPage::newFromID( $title->getArticleID() );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MediaWiki 1.36+
+			$wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromID( $title->getArticleID() );
+		} else {
+			$wikiPage = WikiPage::newFromID( $title->getArticleID() );
+		}
 
 		if ( is_null( $wikiPage ) ) {
 			return '';
