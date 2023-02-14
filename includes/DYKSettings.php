@@ -13,7 +13,7 @@
  * @file
  * @ingroup DYK
  *
- * @licence GNU GPL v2+
+ * @license GPL-2.0-or-later
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
 class DYKSettings {
@@ -27,9 +27,7 @@ class DYKSettings {
 	 * @return array
 	 */
 	protected static function getDefaultSettings() {
-		return array(
-
-		);
+		return [];
 	}
 
 	/**

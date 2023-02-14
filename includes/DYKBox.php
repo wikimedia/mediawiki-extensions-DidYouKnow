@@ -10,12 +10,14 @@ use MediaWiki\MediaWikiServices;
  * @file
  * @ingroup DYK
  *
- * @licence GNU GPL v2+
+ * @license GPL-2.0-or-later
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
 class DYKBox extends ContextSource {
 
+	/** @var string */
 	protected $mainCategory;
+	/** @var bool|string */
 	protected $specificCategory;
 
 	/**
@@ -28,7 +30,7 @@ class DYKBox extends ContextSource {
 	 * @param IContextSource|null $context
 	 */
 	public function __construct( $mainCategory, $specificCategory = false, IContextSource $context = null ) {
-		if ( !is_null( $context ) ) {
+		if ( $context !== null ) {
 			$this->setContext( $context );
 		}
 
@@ -52,14 +54,13 @@ class DYKBox extends ContextSource {
 
 		if ( $title === false ) {
 			return '';
-		}
-		else {
+		} else {
 			$html .= $this->getOutput()->parseAsContent( $this->getArticleContent( $title ) );
 		}
 
 		$html = Html::rawElement(
 			'div',
-			array( 'class' => 'didyouknow' ),
+			[ 'class' => 'didyouknow' ],
 			$html
 		);
 
@@ -74,9 +75,9 @@ class DYKBox extends ContextSource {
 	 * @return array
 	 */
 	public static function getModules() {
-		return array(
+		return [
 			'ext.dyk'
-		);
+		];
 	}
 
 	/**
@@ -106,13 +107,13 @@ class DYKBox extends ContextSource {
 			$wikiPage = WikiPage::newFromID( $title->getArticleID() );
 		}
 
-		if ( is_null( $wikiPage ) ) {
+		if ( $wikiPage === null ) {
 			return '';
 		}
 
 		$content = $wikiPage->getContent();
 
-		if ( is_null( $content ) || !( $content instanceof TextContent ) ) {
+		if ( $content === null || !( $content instanceof TextContent ) ) {
 			return '';
 		}
 
@@ -158,14 +159,14 @@ class DYKBox extends ContextSource {
 	protected function getPageFromCategory( $categoryName ) {
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->selectRow(
-			array( 'page', 'categorylinks' ),
-			array( 'page_namespace', 'page_title' ),
-			array(
+			[ 'page', 'categorylinks' ],
+			[ 'page_namespace', 'page_title' ],
+			[
 				'cl_from=page_id',
 				'cl_to' => Title::newFromText( $categoryName, NS_CATEGORY )->getDBkey()
-			),
+			],
 			__METHOD__,
-			array( 'ORDER BY' => 'RAND()' )
+			[ 'ORDER BY' => 'RAND()' ]
 		);
 
 		if ( $res !== false ) {
