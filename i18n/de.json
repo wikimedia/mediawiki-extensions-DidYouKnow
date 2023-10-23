@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Magiczocker"
 		]
 	},
-	"didyouknow-desc": "Ermöglicht das Anzeigen eines Kastens „Schon gewusst …?“, der die Inhalte aus Wikiseiten bestückt wird",
-	"didyouknow-header": "Schon gewusst …?"
+	"didyouknow-desc": "Ermöglicht das Anzeigen eines Kastens „Schon gewusst ... ?“, der mit Inhalten aus Wikiseiten bestückt wird",
+	"didyouknow-header": "Schon gewusst ... ?"
 }
