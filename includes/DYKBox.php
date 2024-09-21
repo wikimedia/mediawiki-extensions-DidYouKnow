@@ -157,7 +157,7 @@ class DYKBox extends ContextSource {
 	 * @return string|bool
 	 */
 	protected function getPageFromCategory( $categoryName ) {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$res = $dbr->selectRow(
 			[ 'page', 'categorylinks' ],
 			[ 'page_namespace', 'page_title' ],
