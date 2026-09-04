@@ -3,9 +3,10 @@
 		"authors": [
 			"BeginaFelicysym",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"PanWor"
 		]
 	},
-	"didyouknow-desc": "Umożliwia wyświetlanie pola „Czy wiesz że…?” wypełnionego zawartością na strony wiki",
-	"didyouknow-header": "Czy wiesz że…?"
+	"didyouknow-desc": "Umożliwia wyświetlanie pola „Czy wiesz, że…” wypełnionego zawartością na strony wiki",
+	"didyouknow-header": "Czy wiesz, że…"
 }
